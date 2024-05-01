@@ -5,10 +5,12 @@
     scroll-behavior: smooth;
     color: white;
 }
-body{
+
+body {
     background-image: url('./bg.jpeg');
-  
+
 }
+
 /*navigation*/
 header a {
     text-decoration: none;
@@ -118,12 +120,14 @@ ul li:hover {
     font-style: italic;
     font-size: 40px;
 }
+
 .profile .typing {
     max-width: 400px;
     box-shadow: 10px 10px 30px rgb(24, 223, 210);
 }
+
 .typing h2 {
-   
+
     font-size: 30px;
     margin-top: 10px;
     padding-left: 60px;
@@ -144,7 +148,7 @@ ul li:hover {
     font-size: 25px;
     line-height: 40px;
     text-align: justify;
-    
+
 }
 
 .home .second-para {
@@ -176,7 +180,7 @@ ul li:hover {
 
 .project h1 {
     text-align: center;
-    color:  rgb(24, 223, 210);
+    color: rgb(24, 223, 210);
 }
 
 /*first project*/
@@ -278,7 +282,7 @@ ul li:hover {
 .achievement h1 {
     margin-top: 50px;
     text-align: center;
-    color:  rgb(24, 223, 210);
+    color: rgb(24, 223, 210);
 
 }
 
@@ -348,7 +352,7 @@ ul li:hover {
 .achievement .achieve .ach .detail h2 {
     font-size: 35px;
     padding: 40px;
-    
+
 }
 
 .achievement .achieve .ach .detail p {
@@ -375,66 +379,66 @@ ul li:hover {
 .contact {
     padding: 25px 0;
     position: relative;
-    top: -300px;    
-  }
-  
-  .contact .heading h2 {
+    top: -300px;
+}
+
+.contact .heading h2 {
     font-size: 30px;
     font-weight: 700;
     margin: 0;
     padding: 0;
-    color:  rgb(24, 223, 210);
-  }
-  
-  .contact .heading h2 span {
+    color: rgb(24, 223, 210);
+}
+
+.contact .heading h2 span {
     color: #ff9100;
-  }
-  
-  .contact .heading p {
+}
+
+.contact .heading p {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.7;
     color: #999999;
     margin: 20px 0 60px;
     padding: 0;
-  }
-  
-  .contact .form-control {
+}
+
+.contact .form-control {
     padding: 25px;
     font-size: 13px;
     margin-bottom: 10px;
     background: #f9f9f9;
     border: 0;
     border-radius: 10px;
-  }
-  
-  .contact button.btn {
+}
+
+.contact button.btn {
     padding: 10px;
     border-radius: 10px;
     font-size: 15px;
     background: rgb(24, 223, 210);
     color: #000000;
-  }
-  
-  .contact .title h3 {
+}
+
+.contact .title h3 {
     font-size: 18px;
     font-weight: 600;
     color: rgb(24, 223, 210);
-  }
-  
-  .contact .title p {
+}
+
+.contact .title p {
     font-size: 14px;
     font-weight: 400;
     color: #999;
     line-height: 1.6;
     margin: 0 0 40px;
-  }
-  
-  .contact .content .info {
+}
+
+.contact .content .info {
     margin-top: 30px;
-  }
-  
-  .contact .content .info i {
+}
+
+.contact .content .info i {
     font-size: 30px;
     padding: 0;
     margin: 0;
@@ -442,22 +446,22 @@ ul li:hover {
     margin-right: 20px;
     text-align: center;
     width: 20px;
-  }
-  
-  .contact .content .info h4 {
+}
+
+.contact .content .info h4 {
     font-size: 18px;
     line-height: 1.4;
-  }
-  
-  .contact .content .info h4 span {
+}
+
+.contact .content .info h4 span {
     font-size: 15px;
     font-weight: 300;
     color: #2C7865;
-  }
-  
-  .contact .content .info .sm {
+}
+
+.contact .content .info .sm {
     margin-left: 20px;
-  }
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -638,24 +642,26 @@ ul li:hover {
 
 
     /*contact*/
-    .contact{
+    .contact {
         position: relative;
         top: 0px;
     }
+
     /*footer*/
 
-    .footer h4 span{
+    .footer h4 span {
         color: #ff9100;
-        
+
     }
+
     #footer h4 {
-        font-size: 10px;
+        font-size: 7px;
         line-height: 30px;
     }
-   
+
 }
 
-@media only screen and (min-width: 600px) and (max-width:1030px){
+@media only screen and (min-width: 600px) and (max-width:1030px) {
     #home .second-para {
         position: absolute;
         top: 800px;
@@ -668,24 +674,26 @@ ul li:hover {
         position: relative;
         top: 180px;
     }
-} 
-.footer{
-    padding-top: 50px;
- 
 }
-.footer h4 span{
-    color: #ff9100;
-}
-.footer h4{
-text-align: center; 
-line-height: 60px;
 
+.footer {
+    padding-top: 50px; 
 }
-.footer h4 a{
-    text-decoration: none;
-    
+
+.footer h4 span {
     color: #ff9100;
 }
-.footer h4 a span{
+
+.footer h4 {
+    text-align: center;
+    line-height: 0px;
+}
+
+.footer h4 a {
+    text-decoration: none;
+    color: #ff9100;
+}
+
+.footer h4 a span {
     color: rgb(24, 223, 210);
 }
